@@ -7,15 +7,23 @@ html{
     overflow-x: hidden;
 }
 
+.header .navbar .navbar-brand img{
+    width: 90px; 
+    height: 64px;
+    margin-left: 15%;
+}
+.header{
+    background-color: #646464;
+  
+}
 .header .navbar-nav{
     margin-left: auto !important;
 }
 .header .navbar-nav .nav-btnn a{
     color: white;
     margin: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 17px;
+    padding: 30px;
+    font-size: 20px;
 }
 .header .navbar-nav .nav-btnn a:hover{
     border: 1px solid white;
@@ -23,116 +31,49 @@ html{
     color: white;
 }
 .header .navbar-nav .nav-btn-blue a{
-    background-color:#29626D;
+    background-color: #29626D;
     border-radius: 40px;
     border: 1px solid white;
 }
-.header .navbar a img{
-    margin-left: 50%;
-}
 
-.container .card .card-text{
-    margin-bottom: 0px;
-} 
-.container .card{
-    margin: 2%;
-}
-.contactus-dec-img img{
+
+.abt-img img{
     width: 100vw;
     height: auto;
 }
 
-.contactus{
-    flex: none !important;
-}
-
-.contact-us-1{
-    padding-top: 35px;
-}
-.contact-us-1 h2{
+.container h4{
     color: #4F4F4F;
     font-weight: 600;
-    height: 40px;
+    font-size: 43px;
+    padding-top: 30px;
+}
+.container img{
+    padding-top:10px;
+    padding-bottom: 30px;
 }
 
-.contact-us-1 .container{
-    padding-top: 50px;
-    padding-bottom: 80px;
-    border-bottom: 1px solid #E1E1E1;
+.container p{
+    color: #646464;
 }
-
-
-.contact-us-1 .container .card{
-    border: none;
-}
-.contact-form .container{
-    width: 35%;
-    padding-top: 100px;
-  
-}
-.contact-form .container h4{
-    color: #4F4F4F;
-    font-weight: 700;
-}
-
-.contact-form .container .form1 .part1 input{
-   width: 100%;
-   padding: 5px;
-   margin: 10px;
-}
-.contact-form .container .form1 input,select,textarea{
-    border: 1px solid #C8C8C8;
-    border-radius: 3px;
-    
-}
-.contact-form .container .form1 .part2{
-    flex-direction: column;
-    padding: 5px;
-    margin: 10px;
-}
-.contact-form .container .form1 .part2 select{
-    padding: 5px;
-}
-
-.contact-form .container button{
-    background-color: #1D7A8C;
-    color: white;
-    width: 25%;
-    border-radius: 30px;
-    font-weight: 500;
-}
-
-
-
-.google-map img{
-    width: 100vw;
-    height: auto;
-    padding-top: 150px;
-    padding-bottom: 20px;
-}
-
 
 
 .our-news-letter{
     padding-bottom: 55px; 
     background: #ffffff; 
     margin-top: 5%;
-}
-
+   }
 .our-news-letter .container {
      position: relative; 
      max-width: 1420px; 
 }
-
 .our-news-letter a {
      display: inline-block; 
-}
-
+    }
 .our-news-letter h2 {
      font-size: 18px; 
      margin-bottom: 16px;
-}
-
+    }
 .our-news-letter .form-row .form-control {
     border-radius: 20px; 
     border: solid 1px #565656; 
@@ -143,21 +84,18 @@ html{
     line-height: 40px; 
     padding: 0 22px;
 }
-
 .our-news-letter .form-row .form-control:focus {
     box-shadow: none;
 }
-
 .our-news-letter .btn-wrapper {
     margin-left: 11px;
 }
-
 .red-btn { 
     background-color: #FF7B6D; 
     font-size: 14px; 
     line-height: 37px; 
     height: 40px; 
-    border-radius: 20px;
+    border-radius: 20px; 
     border: none; 
     outline: none; 
     color: #fff; 
@@ -228,39 +166,7 @@ html{
 }
 
 
-@media(max-width:1130px){
-    .contact-form .container{
-        width: 55%;
-    }
-}
-
-@media(max-width:993px){
-    .site-footer .footer-widget{
-        text-align: center;    
-    }
-    .site-footer ul.social-media-list {
-        margin-top: 10px;
-        justify-content: center !important; }
-}
-
-@media(max-width:730px){
-    .contact-us-1 .container{
-        flex-direction: column;
-        
-        align-items: center;
-    }
-    .contact-form .container{
-        width: 70%;
-    }
-    .contactus-dec-img img{
-        height: 180px;
-    }
-}
-
-@media(max-width:550px){
-    .contact-form .container{
-        width: 98%;
-    }
+@media (max-width:479px){
     .site-footer .footer-top img{
         display: none;
     }
@@ -270,5 +176,27 @@ html{
         text-align: center;}
         .site-footer ul.footer-navigation li+li {
             margin-left: 0;
-        }
+    }
+}
+
+@media (max-width:625px){
+
+    .header .navbar .navbar-brand img{
+        width: 60px; 
+        height: 40px;
+        margin-left: 15%;
+    }
+    .abt-img img{
+        width: 100vw;
+        height: 130px;
+    }
+}
+
+@media (max-width:999px){
+    .site-footer .footer-widget{
+        text-align: center;    
+    }
+    .site-footer ul.social-media-list {
+        margin-top: 10px;
+        justify-content: center !important; }
 }
